@@ -33,7 +33,11 @@ public class Controller {
 
 
         // label_result.setText("Result: " + result);
-         System.out.println("Result: " + result);
+        //  System.out.println("Result: " + result);
+        //  step3
+        String str_result = Double.toString(result);
+        label_result.setText(str_result);
+        System.out.println("Result: " + str_result);
         // try {
         //     double num1 = Double.parseDouble(str_num1);
         //     double num2 = Double.parseDouble(str_num2);
