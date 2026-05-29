@@ -23,4 +23,3 @@ public class Main extends Application {
     }
     ///// This is the main class of the application. It is responsible for loading the FXML file and displaying the scene.
 }
-|
