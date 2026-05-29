@@ -22,4 +22,8 @@ public class Main extends Application {
         launch();
     }
     ///// This is the main class of the application. It is responsible for loading the FXML file and displaying the scene.
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 760b6b3ef6be4f65e01e4ed3f568ca854d4dae53
