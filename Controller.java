@@ -26,7 +26,23 @@ public class Controller {
         String str_num2 = textfield_num2.getText();
         System.out.println("Number 1: " + str_num1);
         System.out.println("Number 2: " + str_num2);
-        
+
+        double db_num1 = Double.parseDouble(str_num1);
+        double db_num2 = Double.parseDouble(str_num2);
+        double result = db_num1 + db_num2;
+
+
+        // label_result.setText("Result: " + result);
+         System.out.println("Result: " + result);
+        // try {
+        //     double num1 = Double.parseDouble(str_num1);
+        //     double num2 = Double.parseDouble(str_num2);
+        //     double result = num1 + num2;
+        //     label_result.setText("Result: " + result);
+        // } catch (NumberFormatException e) {
+        //     label_result.setText("Invalid input! Please enter valid numbers.");
+        // }
+
 
 
 
