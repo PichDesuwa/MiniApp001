@@ -31,20 +31,10 @@ public class Controller {
         double db_num2 = Double.parseDouble(str_num2);
         double result = db_num1 + db_num2;
 
-
-        // label_result.setText("Result: " + result);
-         System.out.println("Result: " + result);
-        // try {
-        //     double num1 = Double.parseDouble(str_num1);
-        //     double num2 = Double.parseDouble(str_num2);
-        //     double result = num1 + num2;
-        //     label_result.setText("Result: " + result);
-        // } catch (NumberFormatException e) {
-        //     label_result.setText("Invalid input! Please enter valid numbers.");
-        // }
-
-
-
+        //  step3
+        String str_result = Double.toString(result);
+        label_result.setText(str_result);
+        System.out.println("Result: " + str_result);
 
     }
 
